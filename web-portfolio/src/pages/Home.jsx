@@ -1,9 +1,9 @@
-import Firstsection from 'web-portfolio/src/components/First-section.jsx';
+import FirstSection from '../components/Firstsection.jsx';
 
 function Home(){
     return(
         <>
-            <Firstsection></Firstsection>
+            <FirstSection></FirstSection>
         </>
     )
 }

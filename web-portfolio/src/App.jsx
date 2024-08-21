@@ -1,4 +1,4 @@
-import Home from 'web-portfolio/src/pages/Home.jsx'
+import Home from './pages/Home.jsx'
 
 
 function App() {
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

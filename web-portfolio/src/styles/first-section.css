@@ -1,0 +1,137 @@
+h1, h2, h3, p{
+    font-weight: 400;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    background: linear-gradient(270deg, #7FE47D 0%, #8AC7FF 101.6%);
+    position: relative;
+    color: #2A272D;
+    margin-bottom: 0px;
+
+font-family: "Neue Regrade";
+font-style: normal;
+}
+
+.container h2{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    
+}
+
+.web-title{
+    font-size: 64px;
+    font-weight: 400;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    position: absolute;
+}
+
+.card-contact{
+    grid-column-start: 11;
+    width: 330px;
+    height: 202px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    background: url('./src/assets/base-card.svg') no-repeat center/contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title{
+    display: flex;
+    align-items: center;
+}
+.card-contact ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 24px;
+    padding: 0%;
+}
+
+.mail{
+    display: flex;
+}
+
+.gif{
+    background-color: #232323;
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    z-index: 1;
+    grid-column-start: 10;
+    grid-column-end: 13;
+    height: 638px;
+    border-radius: 30px 0px 30px 30px;
+
+}
+
+.addon-arrow{
+    width: 41px;
+    height: 41px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.addon-arrow-black{
+    width: 41px;
+    height: 41px;
+    margin-top: 20px;
+}
+
+.marquee {
+    color: white;
+    font-family: "Neue Regrade";
+    font-style: normal;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    background-color: #141414;
+    width: 100%;
+    height: 64px; /* Mantiene el contenedor con un tamaño fijo */
+    line-height: 64px; /* Alinea verticalmente el texto en el centro */
+    overflow: hidden; /* Asegura que el contenido que sale de la pantalla no se vea */
+    padding: 0; /* Elimina cualquier relleno adicional que pueda afectar la altura */
+}
+
+.marquee__content {
+    height: auto; /* Permite que el contenido ocupe el espacio necesario */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: scroll 32s linear infinite;
+}
+
+.marquee__item {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+.lotus{
+    margin-top: 400px;
+    grid-column-start: 5;
+    width: 451px;
+    position: absolute;
+}
+
+.line {
+    position: absolute; /* Fija la posición en relación al contenedor padre posicionado */
+    background-color: #141414; /* Color de la línea */
+    width: 1px; /* Ancho de la línea */
+    height: 100%; /* Altura de la línea */
+    top: 0; /* Asegura que la línea comience desde el borde superior */
+    left: 3%; /* Posiciona la línea en el centro del contenedor padre (ajusta según sea necesario) */
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%); /* Inicia fuera de la vista */
+    }
+    to {
+        transform: translateX(-100%); /* Termina fuera de la vista por el otro lado */
+    }
+}
