@@ -8,6 +8,7 @@ function FirstSection(){
         <>
         <div className="container">
             <div className="line"></div>
+            <div className="line-white"></div>
             <img className="lotus" src="./src/assets/Secuencia 01.gif"/>
             <div className="gif"/>
             <div className="web-title">

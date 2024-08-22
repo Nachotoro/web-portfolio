@@ -17,6 +17,12 @@ font-style: normal;
 .container h2{
     grid-column-start: 3;
     grid-column-end: 6;
+    font-size: 32px;
+    
+}
+.container h3{
+    font-size: 20px;
+    font-weight: bold;
     
 }
 
@@ -40,6 +46,7 @@ font-style: normal;
     align-items: center;
 }
 .card-title{
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -48,10 +55,15 @@ font-style: normal;
     display: flex;
     column-gap: 24px;
     padding: 0%;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
 }
 
 .mail{
+    height: fit-content;
     display: flex;
+    margin-bottom: 16px;
 }
 
 .gif{
@@ -126,6 +138,15 @@ font-style: normal;
     left: 3%; /* Posiciona la línea en el centro del contenedor padre (ajusta según sea necesario) */
 }
 
+.line-white{
+    position: absolute; /* Fija la posición en relación al contenedor padre posicionado */
+    background-color: #ffffff; /* Color de la línea */
+    width: 1px; /* Ancho de la línea */
+    height: 100%; /* Altura de la línea */
+    top: 0; /* Asegura que la línea comience desde el borde superior */
+    right: 3%; /* Posiciona la línea en el centro del contenedor padre (ajusta según sea necesario) */
+    z-index: 2;
+}
 
 @keyframes scroll {
     from {
@@ -135,3 +156,4 @@ font-style: normal;
         transform: translateX(-100%); /* Termina fuera de la vista por el otro lado */
     }
 }
+
