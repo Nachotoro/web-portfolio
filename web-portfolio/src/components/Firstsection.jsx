@@ -12,7 +12,8 @@ function FirstSection(){
             <img className="lotus" src="./src/assets/Secuencia 01.gif"/>
             <div className="gif"/>
             <div className="web-title">
-                <h1>Hi, this is Ignacio Toro's portfolio</h1>
+                <img src="./src/assets/triangle.png"></img>
+                <h1>Hi, this is <br></br> Ignacio Toro's <br></br> portfolio</h1>
             </div>
             <h2>Designer & Web developer <br/> Based in Santiago, Chile</h2>
             <ContactMe/>
