@@ -10,7 +10,9 @@ function FirstSection(){
             <div className="line"></div>
             <div className="line-white"></div>
             <img className="lotus" src="./src/assets/Secuencia 01.gif"/>
-            <div className="gif"/>
+            <div className="gif">
+                <img src="./src/assets/Secuencia 01_1.gif" alt="GIF description" />
+            </div>
             <div className="web-title">
                 <img src="./src/assets/triangle.png"></img>
                 <h1>Hi, this is <br></br> Ignacio Toro's <br></br> portfolio</h1>

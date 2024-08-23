@@ -1,0 +1,19 @@
+.title-projects{
+    padding-top: 48px;
+    color: #141414;
+    font-family: "Bebas Neue";
+    font-size: 81px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 172px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-projects img{
+    filter: brightness(1.5);
+}
+
