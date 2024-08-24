@@ -2,6 +2,8 @@
 import React from "react";
 import '../styles/title-projects.css'; // Ruta corregida
 import FlowerIconImage from '../assets/flower.png'; // Importar la imagen como módulo
+import '../styles/second-section.css';
+
 
 const FlowerIcon = () => (
   <img src={FlowerIconImage} alt="Flower Icon" />

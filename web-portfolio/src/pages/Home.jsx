@@ -1,11 +1,13 @@
 import FirstSection from '../components/FirstSection.jsx';
-import TitleProjects from '../components/TitleProjects.jsx';
+import SecondSection from '../components/SecondSection.jsx';
 
 function Home(){
     return(
         <>
             <FirstSection></FirstSection>
-            <TitleProjects/>
+            <SecondSection/>
+
+            
             
         </>
     )

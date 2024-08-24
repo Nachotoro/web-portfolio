@@ -2,6 +2,7 @@ h1, h2, h3, p{
     font-weight: 400;
 }
 .container{
+    height: 860px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
@@ -15,8 +16,9 @@ font-style: normal;
 }
 
 .container h2{
+    margin-left: 32px;
     margin-top: 56px;
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 6;
     font-size: 32px;
     
@@ -33,12 +35,13 @@ font-style: normal;
     display: flex;
     font-size: clamp(36px, 4vw, 42px);
     font-weight: 400;
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 8;
     position: absolute;
     overflow: visible;
 }
 .web-title img{
+    grid-column-start: 10;
     margin-top: 16%;
     margin-right: 16px;
     width: 16px;
@@ -46,7 +49,7 @@ font-style: normal;
 }
 
 .card-contact{
-    grid-column-start: 11;
+    grid-column-end: 12;
     width: 330px;
     height: 202px;
     padding-bottom: 24px;
@@ -64,6 +67,7 @@ font-style: normal;
 }
 .card-title h2{
     margin-top: 26px;
+    margin-left: 0px;
 }
 .card-contact ul{
     list-style-type: none;
@@ -95,17 +99,15 @@ font-style: normal;
 }
 
 .gif{
+    margin-top: 64px;
+    border-radius: 8px;
     background-color: #232323;
-    margin-top: 0%;
     margin-left: 0%;
     position: relative;
-    z-index: 1;
-    grid-column-start: 10;
-    grid-column-end: 13;
-    height: 638px;
-    border-radius: 9999px;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    height: 460px;
     overflow: hidden;
-
 }
 .gif img{
     width: 100%;
@@ -159,10 +161,11 @@ font-style: normal;
 }
 
 .lotus{
-    margin-top: 400px;
+    width: 800px;
+    margin-top: 300px;
     grid-column-start: 5;
-    width: 440px;
     position: absolute;
+    z-index: 1;
 }
 
 .line {
@@ -171,12 +174,12 @@ font-style: normal;
     width: 1px; /* Ancho de la línea */
     height: 100%; /* Altura de la línea */
     top: 0; /* Asegura que la línea comience desde el borde superior */
-    left: 3%; /* Posiciona la línea en el centro del contenedor padre (ajusta según sea necesario) */
+    left: 8%; /* Posiciona la línea en el centro del contenedor padre (ajusta según sea necesario) */
 }
 
 .line-white{
     position: absolute; /* Fija la posición en relación al contenedor padre posicionado */
-    background-color: #ffffff; /* Color de la línea */
+    background-color: #141414; /* Color de la línea */
     width: 1px; /* Ancho de la línea */
     height: 100%; /* Altura de la línea */
     top: 0; /* Asegura que la línea comience desde el borde superior */

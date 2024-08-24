@@ -1,0 +1,47 @@
+.second-section{
+    background: linear-gradient(180deg, rgba(245, 243, 255, 0.70) 0%, rgba(222, 215, 253, 0.70) 100%);
+}
+.projects-section {
+    display: grid;
+    grid-template-columns: repeat(3, 360px); /* 3 columnas de 300px cada una */
+    justify-content: center; /* Centra las columnas en el contenedor */
+    gap: 20px; /* Espacio de 20px entre las cards */
+    padding: 20px;
+}
+
+.project-card {
+    font-family: "Neue Regrade";
+    font-style: normal;
+    border-radius: 16px;
+    border: solid 1px #141414;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project-card h3{
+    font-size: 32px;
+    font-weight:bolder;
+}
+.project-card p{
+    font-size: 24px;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px; /* Mantén la altura fija */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-radius: 8px;
+}
+
+.project-card:hover {
+    border: solid 1px #141414;
+    background: linear-gradient(180deg, rgba(245, 243, 255, 0.70) 0%, rgba(222, 215, 253, 0.70) 100%);
+}
+.project-card img:hover {
+    border: solid 1px #141414;
+}
+
+
+  
