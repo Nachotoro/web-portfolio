@@ -1,12 +1,16 @@
 
-
+const ArrowIcon = () => {
+    return (
+      <img src="./src/assets/arrow_outward_FILL0_wght400_GRAD0_opsz24 3.png" alt="Arrow Icon" />
+    );
+  };
 
 function ContactMe(){
     return(
         <div className="card-contact">
             <div className="content">
                 <div className="card-title">
-                    <img src=".\src\assets\arrow_outward_FILL0_wght400_GRAD0_opsz24 3.png" />
+                    <ArrowIcon/>
                     <h2>Contact me</h2>
                 </div>
                 <ul>
